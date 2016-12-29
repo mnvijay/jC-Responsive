@@ -75,10 +75,6 @@ html * {
     background: url("/images/waves.png") no-repeat bottom,url("/images/background.jpg") no-repeat;
     background-size:100% 30%,cover;
     background-position: bottom,-100px 0px;
-    transition: height 1000000s ease;
--webkit-transition: height 1000000s ease;
--moz-transition: height 1000000s ease;
--o-transition: height 1000000s ease;
 }
 
 #homeText{
