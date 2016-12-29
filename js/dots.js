@@ -4,12 +4,27 @@ $(document).ready(function(){ // wait for document ready
     $(window).scrollTop(0);
 });
     
-    var bg = jQuery("#home");
-jQuery(window).resize("resizeBackground");
-function resizeBackground() {
-    bg.height(jQuery(window).height());
+   function greedyJumbotron() {
+    var HEIGHT_CHANGE_TOLERANCE = 100; // Approximately URL bar height in Chrome on tablet
+
+    var jumbotron = $(this);
+    var viewportHeight = $(window).height();
+
+    $(window).resize(function () {
+        if (Math.abs(viewportHeight - $(window).height()) > HEIGHT_CHANGE_TOLERANCE) {
+            viewportHeight = $(window).height();
+            update();
+        }
+    });
+
+    function update() {
+        jumbotron.css('height', viewportHeight + 'px');
+    }
+
+    update();
 }
-resizeBackground();
+
+$('.greedy-jumbotron').each(greedyJumbotron);
     
    $(window).scroll(function() {
    var hT = $('#lastsection').offset().top,
