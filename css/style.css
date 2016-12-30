@@ -220,6 +220,10 @@ html * {
 
 #m_artistsProfile .row .m_genericTextBox{
     height: 30vh;
+    transition: height 1000000s ease;
+    -webkit-transition: height 1000000s ease;
+    -moz-transition: height 1000000s ease;
+    -o-transition: height 1000000s ease;
 }
 
 #m_artistsProfile h4{
