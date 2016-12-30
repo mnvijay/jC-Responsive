@@ -123,7 +123,32 @@
                 <div ><a href="#"><img  id="m_jCplayStore" src="images/playstore.png" ></a></div>
             </div>
             
-        <div id="m_jCfooterBottom">Bottom
+        <div id="m_jCfooterBottom" class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12 col-xs-12">
+                    <ul>
+                        <li><a href="#">Post your JamRooms</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li href="#"><a>Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="m_icons" class="row">
+                <div class="col-sm-12 col-xs-12">
+                    <ul>
+                        <li><a href="https://www.facebook.com/jamcultr"><img src="images/facebook.png"></a></li>
+                        <li><a><img src="images/twitter.png"></a></li>
+                        <li><a> <img src="images/instagram.png"></a></li>
+                    </ul>
+                    <p>Contact Us</p>
+                    <p>+919629219912</p>
+                </div>
+            </div>    
+            <div id="copyrights" class="row">
+                <div class="col-sm-12 col-xs-12">
+                    <p>JamCulture 2016 All Rights Reserved</p>
+                </div>
+            </div>
         </div>
     </div>
     </div>     
@@ -176,13 +201,28 @@
         maxFont:30,
         fontRatio:10}
         ); 
-        $("#m_jCfooterTop p").flowtype({
+        $("#m_jCfooterBottom .row li a").flowtype({
         minimum: 320,
         maximum: 620,
-        minFont: 16,
-        maxFont:28,
-        fontRatio:20}
+        minFont: 14,
+        maxFont:20,
+        fontRatio:30}
+        );  
+        $("#m_icons p").flowtype({
+        minimum: 320,
+        maximum: 620,
+        minFont: 14,
+        maxFont:20,
+        fontRatio:30}
         );   
+        $("#copyrights p").flowtype({
+        minimum: 320,
+        maximum: 620,
+        minFont: 12,
+        maxFont:20,
+        fontRatio:30}
+        );   
+         
     </script>
     
 </body>
