@@ -27,7 +27,7 @@ html * {
     src: url("../fonts/pacifico/Pacifico.ttf");
 }
 
-#home .navbar{
+#m_home .m_navbar{
     position: fixed;
     background-color: rgba(219, 134, 35, 1 );
     z-index: 1;
@@ -36,14 +36,14 @@ html * {
     z-index: 2;
 }
 
-#home .row header{
+#m_home .row header{
     position: fixed;
     width: 100vw;
     margin: 0 auto 20px 10px;
     z-index: 2;
 }
 
-#home .row header h1{
+#m_home .row header h1{
     
      font-family: 'Pacifico', cursive;
      font-size: 25px;
@@ -52,7 +52,7 @@ html * {
 
 }
 
-#home a{
+#m_home a{
     position: absolute;
     background: none;
     color: white;
@@ -68,7 +68,7 @@ html * {
     
 }
 
-#home{
+#m_home{
     position: relative;
     width: 100%;
     height: 100vh;
@@ -81,7 +81,7 @@ html * {
     -o-transition: height 1000000s ease;
 }
 
-#homeText{
+#m_homeText{
     position: relative;
     height: auto;
     width: 100%;
@@ -100,7 +100,7 @@ html * {
     font-size: 22px;   
     }
 }
-#homeText h4{
+#m_homeText h4{
     font-family: 'Roboto Slab', serif;
     font-weight: 300;
     color: lightgrey;
@@ -117,7 +117,7 @@ html * {
     z-index: 1;
 }
 
-#info{
+#m_info{
     position: relative;
     width: 100%;
     height: 100vh;
