@@ -30,7 +30,7 @@ $(document).ready(function(){ // wait for document ready
     update();
 }
 
-$('.greedy-jumbotron').each(greedyJumbotron);
+$('.wrap').each(greedyJumbotron);
 
 
     
