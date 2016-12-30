@@ -11,7 +11,7 @@ $(document).ready(function(){ // wait for document ready
 });
     
     function greedyJumbotron() {
-    var HEIGHT_CHANGE_TOLERANCE = 100; // Approximately URL bar height in Chrome on tablet
+    var HEIGHT_CHANGE_TOLERANCE = 300; // Approximately URL bar height in Chrome on tablet
 
     var jumbotron = $(this);
     var viewportHeight = $(window).height();
