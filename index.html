@@ -25,7 +25,7 @@
 <body>
     <div id="m_wrapper" class=".wrap">
                       
-    <div id="m_home" class="container-fluid">
+        <div id="m_home" class="container-fluid">
             <div class="row m_navbar" data-aos="slide-down" data-aos-anchor="#m_trigger " data-aos-easing="ease-out"></div>
         <div class="row">
             <div class= "col-sm-12 col-xs-12">
@@ -47,7 +47,7 @@
   
     </div>
     
-    <div id="m_info">
+        <div id="m_info">
         <div class="row">
             <div class="col-sm-12 col-xs-12">
                 <h4><b>One App</b> that offers<br> everything you were looking for.</h4>
@@ -59,25 +59,25 @@
         </div>
     </div>
         
-    <div id="m_profiles">
+        <div id="m_profiles">
         <div id="m_artistsProfile" class="container-fluid">
             <div class="row">
                 <div  class="col-sm-12 xs-12 m_genericPhoneBox">
-                    <img id="m_A2" src="images/ArtistsPhone2@3x.png" height="350px">
-                    <img id="m_A1" src="images/ArtistsPhone1@3x.png" height="430px">
+                    <img id="m_A2" src="images/ArtistsPhone2@3x.png" height="300px">
+                    <img id="m_A1" src="images/ArtistsPhone1@3x.png" height="380px">
                 </div>
             </div>
             <div class="row">
                 <div class="col-sm-12 col-xs-12 m_genericTextBox">
                     <h4><b>Artists</b> out there,<br> Jamculture gets it all covered.</h4>
-                    <p>This is a place to discover and get discovered by artists around you. <br>Exhibit yourself and start exploring<br> new opportunities here.</p>
+                    <p>This is a place to discover and get discovered by artists around you. Exhibit yourself and start exploring new opportunities here.</p>
                 </div>
             </div>
         </div>
         <div id="m_artistsProfile" class="container-fluid">
             <div class="row m_jCbands">
                 <div  class="col-sm-12 xs-12 m_genericPhoneBox">
-                    <img id="m_A1" src="images/BandPhone1@3x.png" height="400px">
+                    <img id="m_A1" src="images/BandPhone1@3x.png" height="350px">
                 </div>
             </div>
             <div class="row">
@@ -90,35 +90,45 @@
         <div id="m_artistsProfile" class="container-fluid">
             <div class="row m_playRoom">
                 <div  class="col-sm-12 xs-12 m_genericPhoneBox">
-                    <img id="m_A1" src="images/PlayRoomphone1@3x.png" height="430px">
+                    <img id="m_A1" src="images/PlayRoomphone1@3x.png" height="380px">
                 </div>
             </div>
             <div class="row">
                 <div class="col-sm-12 col-xs-12 m_genericTextBox">
                     <h4><b>Playroom, </b>where you can let your creativity play around!</h4>
-                    <p>Be it an artist or a band , create/practise the grooves,  explore all the Jam Rooms ,Recording Studios around you in the playroom section </p>
+                    <p>Be it an artist or a band, create/practise the grooves, explore all the Jam Rooms, Recording Studios around you in the playroom section </p>
                 </div>
             </div>
         </div>
         <div id="m_artistsProfile" class="container-fluid">
             <div class="row m_gigs">
                 <div  class="col-sm-12 xs-12 m_genericPhoneBox">
-                    <img id="m_A1" src="images/BandPhone1@3x.png" height="430px">
+                    <img id="m_A1" src="images/BandPhone1@3x.png" height="330px">
                 </div>
             </div>
             <div class="row">
                 <div class="col-sm-12 col-xs-12 m_genericTextBox">
-                    <h4><b>Gigs, </b> explore them right from the app and find one that suits you.</h4>
-                    <p>Cutting out all the intermediates , we let you directly contact the spaces /people who are looking for you. How does that sound?
-                    Start your journey with us and let's break it all.</p>
+                    <h4><b>Gigs, </b> explore them right from the app & find one that suits you.</h4>
+                    <p id="m_gigsP">Cutting out all the intermediates, we let you directly contact the spaces /people who are looking for you. How does that sound?
+                    Start your journey with us & let's break it all.</p>
                 </div>
             </div>
         </div>
     </div>  
+        
+        <div id="m_jCfooter" >
+            <div id="m_jCfooterTop" class="container-fluid">
+                <h4>Start your Journey..</h4>
+                <p>Its big time you give us a try<br> You can find us on</p>
+                <div ><a href="#"><img  id="m_jCplayStore" src="images/playstore.png" ></a></div>
+            </div>
+            
+        <div id="m_jCfooterBottom">Bottom
+        </div>
+    </div>
     </div>     
     
-    <div id="m_jCfooter">
-    </div>
+    
     
     <script src="js/dots.js"></script> 
     
@@ -136,30 +146,43 @@
         maximum: 620,
         minFont: 20,
         maxFont:30,
-        fontRatio:16}
+        fontRatio:20}
         ); 
         $("#m_info .row p").flowtype({
         minimum: 320,
         maximum: 620,
-        minFont: 15,
-        maxFont:20,
-        fontRatio:45}
+        minFont: 16,
+        maxFont:28,
+        fontRatio:30}
         );  
-       $("#m_artistsProfile h4").flowtype({
+        $("#m_artistsProfile h4").flowtype({
         minimum: 320,
         maximum: 620,
         minFont: 20,
-        maxFont:30,
+        maxFont: 30,
         fontRatio:20}
         ); 
         $("#m_artistsProfile p").flowtype({
         minimum: 320,
         maximum: 620,
-        minFont: 15,
-        maxFont:22,
-        fontRatio:45}
+        minFont: 16,
+        maxFont: 28,
+        fontRatio:30}
         ); 
-         
+        $("#m_jCfooterTop h4").flowtype({
+        minimum: 320,
+        maximum: 620,
+        minFont: 20,
+        maxFont:30,
+        fontRatio:10}
+        ); 
+        $("#m_jCfooterTop p").flowtype({
+        minimum: 320,
+        maximum: 620,
+        minFont: 16,
+        maxFont:28,
+        fontRatio:20}
+        );   
     </script>
     
 </body>
