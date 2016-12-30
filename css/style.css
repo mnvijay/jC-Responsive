@@ -85,13 +85,21 @@ html * {
     margin-top: 10em; 
 }
 
+@media(max-width:321px){
+    #homeText h4{
+    font-size: 20px;   
+    }
+}
+ 
+@media(min-width:322px){
+    #homeText h4{
+    font-size: 22px;   
+    }
+}
 #homeText h4{
-    font-size: 30px;
     font-family: 'Roboto Slab', serif;
     font-weight: 300;
     color: lightgrey;
-    letter-spacing: 1px;
-    word-spacing: 2px;
     line-height:40px ;
 }
 
