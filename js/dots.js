@@ -3,8 +3,14 @@ $(document).ready(function(){ // wait for document ready
      $(window).on('beforeunload', function() {
     $(window).scrollTop(0);
 });
+
+    $("button").click(function() {
+    $('html,body').animate({
+        scrollTop: $("#m_profiles").offset().top},
+        'slow');
+});
     
-      function greedyJumbotron() {
+    function greedyJumbotron() {
     var HEIGHT_CHANGE_TOLERANCE = 100; // Approximately URL bar height in Chrome on tablet
 
     var jumbotron = $(this);
@@ -26,7 +32,7 @@ $(document).ready(function(){ // wait for document ready
 
 $('.greedy-jumbotron').each(greedyJumbotron);
 
-    
+
     
     
    $(window).scroll(function() {

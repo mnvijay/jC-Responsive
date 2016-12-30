@@ -15,7 +15,7 @@
 <script src="js/respond.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="//code.jquery.com/jquery-latest.min.js"></script>
-<script src="js/flowtype.js"></script>   
+<script src="js/flowtype.js"></script>
  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
 <script type="text/javascript">window.jQuery || document.write('<script type="text\/javascript" src="js\/1.7.2.jquery.min"><\/script>')</script>
 <script src="js/prefixfree.min.js"></script>
@@ -23,10 +23,10 @@
 
 </head>
 <body>
-    
-    <section id="m_home" class="container-fluid">
-        <h1 class="hidden">Home Page</h1> 
-            <div class="row m_navbar" data-aos="fade-down" data-aos-offset="900"></div>
+    <div id="m_wrapper">
+                      
+    <div id="m_home" class="container-fluid">
+            <div class="row m_navbar" data-aos="slide-down" data-aos-anchor="#m_trigger " data-aos-easing="ease-out"></div>
         <div class="row">
             <div class= "col-sm-12 col-xs-12">
                 <header>
@@ -38,14 +38,45 @@
        
         <div class="row">
             <div id="m_homeText" class="col-sm-12 col-xs-12">
-                <h4>Artists,<br>
+                <h4><b>Artists,</b><br>
                     We present you<br>Everything you wished existed</h4>
             </div>
-        </div>    
+        </div> 
+        <div id="m_trigger"></div>
         <img id="m_homePhone" src="images/phone.png">
   
-    </section>
-    <section id="m_info"></section>
+    </div>
+    
+    <div id="m_info">
+        <div class="row">
+            <div class="col-sm-12 col-xs-12">
+                <h4><b>One App</b> that offers<br> everything you were looking for.</h4>
+                <p>Jamculture strives to bring like minded and skilled musicians together. Providing a platform, and services based on your requirement .We also endeavour to help you make your presence felt!</p>
+            </div>
+        </div>
+         <div>
+            <button id ="m_scrolldown" class="btn btn-default" type="button"><span class="glyphicon glyphicon-menu-down"></span></button>      
+        </div>
+    </div>
+        
+    <div id="m_profiles">
+        <div id="m_artistsProfile" class="container-fluid">
+            <div class="row">
+                <div  class="col-sm-12 xs-12 m_genericPhoneBox">
+                    <img id="m_A2" src="images/ArtistsPhone2@3x.png" height="350px">
+                    <img id="m_A1" src="images/ArtistsPhone1@3x.png" height="430px">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-xs-12 m_genericTextBox">
+                    <h4><b>Artists</b> out there,<br> Jamculture gets it all covered.</h4>
+                    <p>This is a place to discover and get discovered by artists around you. <br>Exhibit yourself and start exploring<br> new opportunities here.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>  
+    </div>     
 
     <script src="js/dots.js"></script> 
     
@@ -58,6 +89,35 @@
         maxFont:30,
         fontRatio:16}
         ); 
+        $("#m_info .row h4").flowtype({
+        minimum: 320,
+        maximum: 620,
+        minFont: 20,
+        maxFont:30,
+        fontRatio:16}
+        ); 
+        $("#m_info .row p").flowtype({
+        minimum: 320,
+        maximum: 620,
+        minFont: 15,
+        maxFont:20,
+        fontRatio:45}
+        );  
+       $("#m_artistsProfile h4").flowtype({
+        minimum: 320,
+        maximum: 620,
+        minFont: 20,
+        maxFont:30,
+        fontRatio:16}
+        ); 
+        $("#m_artistsProfile p").flowtype({
+        minimum: 320,
+        maximum: 620,
+        minFont: 15,
+        maxFont:20,
+        fontRatio:45}
+        ); 
+         
     </script>
     
 </body>
