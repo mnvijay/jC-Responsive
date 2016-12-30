@@ -14,7 +14,8 @@
 <script src="js/modernizr-custom.js"></script>
 <script src="js/respond.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-   
+<script src="//code.jquery.com/jquery-latest.min.js"></script>
+<script src="js/flowtype.js"></script>   
  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
 <script type="text/javascript">window.jQuery || document.write('<script type="text\/javascript" src="js\/1.7.2.jquery.min"><\/script>')</script>
 <script src="js/prefixfree.min.js"></script>
@@ -50,6 +51,13 @@
     
      <script>
         AOS.init();
+        $("#m_homeText h4").flowtype({
+        minimum: 320,
+        maximum: 620,
+        minFont: 20,
+        maxFont:30,
+        fontRatio:20}
+        ); 
     </script>
     
 </body>
