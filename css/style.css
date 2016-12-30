@@ -5,13 +5,6 @@ html, body{
     z-index: 1;
 }
 
-.m_hidden{
-    {
-  position: absolute;
-  clip: rect(1px 1px 1px 1px); /* IE6 & 7 */
-  clip: rect(1px, 1px, 1px, 1px);
-}
-}
 html * {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
