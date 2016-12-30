@@ -86,9 +86,13 @@ html * {
 }
 
 #homeText h4{
-    font-family: 'Roboto-Slab';
     font-size: 30px;
-    color: whitesmoke;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    color: lightgrey;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height:40px ;
 }
 
 #m_homePhone{
