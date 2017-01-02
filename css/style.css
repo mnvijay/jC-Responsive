@@ -3,6 +3,7 @@ html, body{
     background-color: rgba(219, 134, 35, 0.95 );
     font-family: 'Open Sans', sans-serif;
     z-index: 1;
+    min-height: 100%;
 }
 
 html * {
@@ -66,7 +67,7 @@ html * {
     background: none;
     color: white;
     border: 1px solid white;
-    font-family: 'Roboto', serif;
+    font-family: 'Roboto Light', serif;
     letter-spacing: 1px;
     text-transform: uppercase;
     border-radius: 82px;
@@ -83,7 +84,7 @@ html * {
     height: 100vh;
     background: url("../images/waves.png") no-repeat bottom,url("../images/BackgroundImage.jpeg") no-repeat;
     background-size:100% 15%,cover;
-    background-position: 0vh 85.31vh,-150px 0px;
+    background-position: 0vh 85.31vh, -120px 0px;
     transition: height 1000000s ease;
     -webkit-transition: height 1000000s ease;
     -moz-transition: height 1000000s ease;
@@ -115,7 +116,7 @@ html * {
 }
     
 #m_homeText h4{
-    font-family: 'Roboto', serif;
+    font-family: 'Roboto Light', serif;
     color: lightgrey;
     line-height:40px ;
 }
@@ -150,7 +151,7 @@ html * {
     position: relative;
     text-align: center;
     color: white;
-    font-family: 'Roboto Thin', serif;
+    font-family: 'Roboto Light', serif;
     font-size:30px ;
     font-weight: 300;
     margin-top: 10em;
@@ -159,7 +160,7 @@ html * {
 
 #m_info .row p{
     position: relative;
-    font-family: 'Roboto Thin', serif;
+    font-family: 'Roboto Light', serif;
     color: white;
     font-size:20px ;
     font-weight:300;
@@ -242,13 +243,13 @@ html * {
     position: relative;
     text-align: center;
     color: white;
-    font-family: 'Roboto Thin', serif;
+    font-family: 'Roboto Light', serif;
     font-weight: 300;
 }
 
 #m_artistsProfile p{
     position: relative;
-    font-family: 'Roboto Thin', serif;
+    font-family: 'Roboto Light', serif;
     color: white;
     font-weight:300;
     text-align: center;
@@ -266,7 +267,7 @@ html * {
 }
 
 #m_artistsProfile .m_gigs{
-    margin-left: -80px;
+    margin-left: -70px;
     margin-top: -40px;
 }
 
@@ -296,7 +297,7 @@ html * {
     position: relative;
     text-align: center;
     color: white;
-    font-family: 'Roboto Thin', serif;
+    font-family: 'Roboto Light', serif;
     font-size:20px ;
     font-weight: 300;
     margin-top: 100px;
@@ -304,7 +305,7 @@ html * {
 
 #m_jCfooterTop p{
     position: relative;
-    font-family: 'Roboto Thin', serif;
+    font-family: 'Roboto Light', serif;
     color: white;
     font-weight:300;
     text-align: center;
@@ -340,7 +341,7 @@ html * {
 }
 
 #m_jCfooterBottom .row li a{
-    font-family: 'Roboto Thin', serif;
+    font-family: 'Roboto Light', serif;
     color: white;
     font-size: 14px;
     font-weight: 300;
@@ -354,13 +355,14 @@ html * {
 
 #m_icons li{
     display: inline-block;
-    padding: 10px;
+    padding: 0px 10px 5px 10px;
     text-align: center;
 }
 
 #m_icons p{
     position: relative;
-    font-family: 'Roboto Thin', serif;
+    font-family: 'Roboto Light', serif;
+    color: white;
     display: block;
     text-align: center;
     padding: 2.5px;
@@ -377,7 +379,8 @@ html * {
 
 #copyrights p{
     position: relative;
-    font-family: 'Roboto Thin', serif;
+    font-family: 'Roboto Light', serif;
+    color: rgba(255,255,255, 0.3);
     padding: 2px;
     bottom: 0;
 }
