@@ -48,7 +48,7 @@ $('.wrap').each(greedyJumbotron);
 
     function update() {
         jumbotron.css('height', viewportHeight + 'px');
-        jumbatron.css({backgroundPosition: '0vh 85.31vh -100px 0px'});
+        jumbotron.css({backgroundPosition: '0vh 85.31vh -100px 0px'});
     }
 
     update();
