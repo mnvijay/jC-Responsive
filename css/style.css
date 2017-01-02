@@ -81,9 +81,9 @@ html * {
     position: relative;
     width: 100%;
     height: 100vh;
-    background: url("../images/waves.png") no-repeat bottom,url("../images/background.jpg") no-repeat;
+    background: url("../images/waves.png") no-repeat bottom,url("../images/BackgroundImage.jpeg") no-repeat;
     background-size:100% 15%,cover;
-    background-position: 0vh 85.31vh,-100px 0px;
+    background-position: 0vh 85.31vh,-150px 0px;
     transition: height 1000000s ease;
     -webkit-transition: height 1000000s ease;
     -moz-transition: height 1000000s ease;
