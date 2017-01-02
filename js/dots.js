@@ -33,6 +33,28 @@ $(document).ready(function(){ // wait for document ready
 
 $('.wrap').each(greedyJumbotron);
 
+      function waves() {
+    var HEIGHT_CHANGE_TOLERANCE = 300; // Approximately URL bar height in Chrome on tablet
+
+    var jumbotron = $(this);
+    var viewportHeight = $(window).height();
+
+    $(window).resize(function () {
+        if (Math.abs(viewportHeight - $(window).height()) > HEIGHT_CHANGE_TOLERANCE) {
+            viewportHeight = $(window).height();
+            update();
+        }
+    });
+
+    function update() {
+        jumbotron.css('height', viewportHeight + 'px');
+        jumbatron.css('background-position', '0vh 85.31vh, ');
+    }
+
+    update();
+}
+
+$('#m_home').each(waves);
 
     
     
