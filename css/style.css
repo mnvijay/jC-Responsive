@@ -88,6 +88,10 @@ html * {
     -webkit-transition: height 1000000s ease;
     -moz-transition: height 1000000s ease;
     -o-transition: height 1000000s ease;
+    transition:  background-position 1000000s ease;
+    -webkit-transition:  background-position 1000000s ease;
+    -moz-transition:  background-position 1000000s ease;
+    -o-transition:  background-position 1000000s ease;
 }
 
 #m_homeText{
