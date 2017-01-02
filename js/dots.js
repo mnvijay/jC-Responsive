@@ -25,6 +25,7 @@ $(document).ready(function(){ // wait for document ready
 
     function update() {
         jumbotron.css('height', viewportHeight + 'px');
+        jumbatron.css('background-position', '0vh 85.31vh, ');
     }
 
     update();
