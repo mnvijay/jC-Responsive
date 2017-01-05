@@ -204,6 +204,34 @@ html * {
     margin-top: 175px;
 }
 
+#d_gigSection{
+    width: 100%;
+    height: 100vh;
+    background: url("../images/lastWave.png") no-repeat;
+    background-color: rgba(219, 134, 35, 0.95 );
+   
+}
+
+#d_gigSection .row{
+    margin-top: 100px;
+}
+
+#d_gPhone1{
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    margin-left: -150px;
+    margin-top: 00px;
+    
+}
+
+#d_gPhone2{
+     position: absolute;
+    left:50%;
+    margin-left: -230px;
+    margin-top: 40px;
+}
+
 #m_wrapper{
     overflow-x: hidden;
 }
