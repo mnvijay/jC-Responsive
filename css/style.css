@@ -33,6 +33,127 @@ html * {
     src: url("../fonts/pacifico/Pacifico.ttf");
 }
 
+#d_wrap{
+    overflow-x: hidden;
+}
+
+#d_home{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url("../images/desktop_home-bg@3x.png") no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#d_home img{
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 20px;
+    float: left;
+}
+
+#d_home h3{
+    display: inline-block;
+    font-family: 'Pacifico', cursive;
+    font-size: 25px;
+    color: white;
+    margin-top: 30px;
+}
+
+#d_home .col-md-2 a{
+    position: absolute;
+    background: none;
+    color: white;
+    border: 1px solid white;
+    font-family: 'Roboto Light', serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-radius: 82px;
+    z-index: 1;
+    top:20px;
+    margin-top: 10px;
+    
+}
+
+#d_home h4{
+    text-align: right;
+    font-family: 'Roboto', serif;
+    color: white;
+    line-height:40px ;
+    font-size: 40px;
+    font-weight: 300;
+    margin-top:30vh;
+}
+
+#d_home h5{
+    position: relative;
+    text-align: right;
+    font-family: 'Roboto', serif;
+    color:  #db8623;
+    line-height:40px ;
+    font-size: 25px;
+    margin-top: 50px;
+}
+
+#d_playstore{
+    float: right;
+}
+
+#d_info{
+    width:100%;
+    height: 100vh;
+    background-color: rgba(219, 134, 35, 0.95 );
+}
+
+#d_info h4{
+    color: white;
+    font-size: 35px;
+    font-family: 'Roboto', serif;
+    text-align: center;
+    margin-top: 200px;
+}
+
+#d_info p{
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto', serif;
+    max-width: 700px;
+    margin-top: 50px;
+    left:50%;
+    margin-left: -350px;
+   
+}
+
+#d_scrolldown{
+    position: relative;
+    background: none;
+    font-size: 1.5em;
+    color: white;
+    border: 1px solid white;
+    border-radius: 50%;   
+    padding-top: 20px;
+    left: 50%;
+    width: 70px;
+    height: 70px;
+    margin-left:-30px;
+    margin-top: 10%;
+    z-index: 1;
+}  
+
+#d_profiles{
+    width: 100%;
+    height: 400vh;
+    background-color: rgba(219, 134, 35, 0.95 );
+}
+
+#d_artistsProfile{
+    height: 100vh;
+    width: 100%;
+}
+
 #m_wrapper{
     overflow-x: hidden;
 }
