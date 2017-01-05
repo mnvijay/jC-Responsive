@@ -78,7 +78,7 @@ html * {
 
 #d_home h4{
     text-align: right;
-    font-family: 'Roboto', serif;
+    font-family: 'Roboto Light', serif;
     color: white;
     line-height:40px ;
     font-size: 40px;
@@ -89,7 +89,7 @@ html * {
 #d_home h5{
     position: relative;
     text-align: right;
-    font-family: 'Roboto', serif;
+    font-family: 'Roboto Light', serif;
     color:  #db8623;
     line-height:40px ;
     font-size: 25px;
@@ -109,7 +109,7 @@ html * {
 #d_info h4{
     color: white;
     font-size: 35px;
-    font-family: 'Roboto', serif;
+    font-family: 'Roboto Light', serif;
     text-align: center;
     margin-top: 200px;
 }
@@ -117,9 +117,9 @@ html * {
 #d_info p{
     position: relative;
     text-align: center;
-    color: white;
+    color: rgba(255,255,255,0.7);
     font-size: 20px;
-    font-family: 'Roboto', serif;
+    font-family: 'Roboto Light', serif;
     max-width: 700px;
     margin-top: 50px;
     left:50%;
@@ -152,6 +152,56 @@ html * {
 #d_artistsProfile{
     height: 100vh;
     width: 100%;
+}
+
+#d_artistsProfile h4{
+    font-family: 'Roboto Light', serif;
+    color: white;
+    font-size: 30px;
+}
+
+#d_artistsProfile p{
+    font-family: 'Roboto Light', serif;
+    color: rgba(255,255,255,0.7);
+    font-size: 18px;
+}
+
+#d_Aphone1{
+    position: absolute;
+    z-index: 1;
+    left:50%;
+    margin-left: -100px;
+}
+
+#d_Aphone2{
+    position: absolute;
+    left:50%;
+    margin-left: -180px;
+    margin-top: 40px;
+}
+
+#d_bPhone1{
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    margin-left: -150px;
+}
+
+#d_bPhone2{
+    position: absolute;
+    left:50%;
+    margin-left: -200px;
+    margin-top: 20px;
+}
+
+.right{
+    text-align: right;
+    margin-top: 175px;
+}
+
+.left{
+    text-align-last: left;
+    margin-top: 175px;
 }
 
 #m_wrapper{
