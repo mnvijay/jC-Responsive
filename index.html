@@ -166,15 +166,15 @@
             <div class="col-md-12 col-lg-12">
                 <div class="row">
                     <div class="col-md-5 col-md-offset-6 col col-lg-5 col-lg-offset-6">
-                    <h4 class="text-right">Stay Connected with us</h4>
-                    <form>
-                        <div class="form-group">
-                            <input type="email" class="form-control text-right" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                            <small id="emailHelp" class="form-text text-muted pull-right">We appreciate your privacy and your email will never be shared with anyone else. Promise!
-                            </small>
-                        </div>
-                    </form>    
-                    <a><button type="submit" class="btn btn-primary pull-right">Submit</button></a>
+                    <h4 class="text-right pull-right">Stay Connected with us</h4>
+                   
+                        <div class="input-box pull-right">
+						   <input  id="email_1" name="newsEmail" class="input-type-box pull-right" type="text" placeholder="                                                        Enter Your E-mail Address"> 
+                           <!-- <a href="#"><div class="subscribe">Subscribe</div></a> -->
+						   <button onclick="myAjax($('#email_1').val())" class="subscribe pull-right">Submit</button> 
+<div class="subscribe-response"><span name="spanReturnMsg"></span></div>
+					    </div>
+                    
                     </div>
                 </div>
             </div>

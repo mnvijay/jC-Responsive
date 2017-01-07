@@ -245,9 +245,55 @@ html * {
     margin-top: 3em;
 }
 
-#d_lastSection .form-text{
+#d_lastSection {
     font-family: 'Roboto Light', serif;
     color: white;
+}
+
+.input-box{
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+	max-width: 400px;
+}
+
+.input-type-box{
+    margin-top: 30px;
+    border: solid 1px #ffffff;
+    border-radius: 35px;
+    width: 400px;
+    height: 44px;
+    padding: 2px 20px;
+    font-family:'Roboto Light',sans-serif;
+    font-size: 14px;
+    color: rgba(219, 134, 35, 0.95 );
+}
+
+.subscribe{
+    width: 140px;
+    height: 44px;
+    border-radius: 35px;
+	border: none;
+    color: white;
+    text-align: center;
+    font-size: 17px;
+    float: right;
+}
+
+.subscribe-response{
+	text-align: center;
+    font-size: 15px;
+	padding-top: 10px;
+    color: white;
+    font-family: open sans, sans-serif;
+	font-weight: bolder;
+	width:400px;
+}
+
+#emailHelp{
+    color: rgba(255, 255, 255, 0.7 );
+    width:493px;
 }
 
 #d_lastSection button{
@@ -298,6 +344,7 @@ html * {
     font-family: 'Roboto Light', serif;
     color: white;
 }
+
 .d_icons p{
     text-align: center;
     font-family: 'Roboto Light', serif;
