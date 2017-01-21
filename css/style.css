@@ -133,11 +133,26 @@ html * {
     width: 96px;
     left: 50%;
     margin-left: -44px;
-    margin-top: 150px;
-z-index: 1;
+    margin-top:50px;
+    z-index: 1;
     
 }  
 
+.Line1{
+    height:25vh; 
+    width:8px;
+    background:white;
+    position: relative;
+    margin-top: 20px;
+    z-index: 2;
+    display: block;
+    left: 50%;
+    border-width: 10px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius:50px ;
+    border-bottom-right-radius: 50px;
+}
 
 .vertical_line{
     height:30vh; 
@@ -153,7 +168,6 @@ z-index: 1;
     border-top-right-radius: 50px;
     border-bottom-left-radius:50px ;
     border-bottom-right-radius: 50px;
-   
 }
 
 #d_button2{
@@ -185,28 +199,28 @@ z-index: 1;
 
 #circle2 {
     position: relative;
-    width: 5px;
-    height: 5px;
-    -webkit-border-radius: 2.5px;
-    -moz-border-radius: 2.5px;
-    border-radius: 2.5px;
+    width: 6px;
+    height: 6px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
     background: white;
     margin: 20px;
     left: 50%;
-    margin-left: -1.25px;
+    margin-left: 0px;
     }
 
 #circle3 {
     position: relative;
-    width: 2.5px;
-    height: 2.5px;
-    -webkit-border-radius: 1.25px;
-    -moz-border-radius: 1.25px;
-    border-radius: 1.25px;
+    width: 4px;
+    height: 4px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
     background: white;
     margin: 20px;
     left: 50%;
-    margin-left: -0.325px;
+    margin-left: 1px;
     }
 
 #d_profiles{
@@ -253,13 +267,14 @@ z-index: 1;
     z-index: 1;
     left: 50%;
     margin-left: -150px;
+    margin-top: 30px;
 }
 
 #d_bPhone2{
     position: absolute;
     left:50%;
     margin-left: -200px;
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 .right{
