@@ -4,11 +4,19 @@ $(document).ready(function(){ // wait for document ready
     $(window).scrollTop(0);
 });
 
+    $("button1").click(function() {
+    $('html,body').animate({
+        scrollTop: $("#d_profiles").offset().top},
+        'slow');
+});
+    
     $("button").click(function() {
     $('html,body').animate({
         scrollTop: $("#m_profiles").offset().top},
         'slow');
 });
+    
+    
 
     function greedyJumbotron() {
     var HEIGHT_CHANGE_TOLERANCE = 300; // Approximately URL bar height in Chrome on tablet

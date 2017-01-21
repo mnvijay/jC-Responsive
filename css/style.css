@@ -129,19 +129,85 @@ html * {
 
 #d_scrolldown{
     position: relative;
-    background: none;
-    font-size: 1.5em;
-    color: white;
-    border: 1px solid white;
-    border-radius: 50%;   
-    padding-top: 20px;
+    height: 96px;
+    width: 96px;
     left: 50%;
-    width: 70px;
-    height: 70px;
-    margin-left:-30px;
-    margin-top: 10%;
-    z-index: 1;
+    margin-left: -44px;
+    margin-top: 150px;
+z-index: 1;
+    
 }  
+
+
+.vertical_line{
+    height:30vh; 
+    width:8px;
+    background:white;
+    position: absolute;
+    margin-top: -10vh;
+    z-index: 2;
+    display: block;
+    left: 50%;
+    border-width: 10px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius:50px ;
+    border-bottom-right-radius: 50px;
+   
+}
+
+#d_button2{
+    position: relative;
+    left: 50%;
+    margin-left: -45px;
+    margin-top:22vh;
+    z-index: 3;
+}
+
+#d_artistsLine{
+    position: relative;
+    margin-top: 2vh;
+    height: 60vh;
+}
+
+#circle1 {
+    position: relative;
+    width: 10px;
+    height: 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background: white;
+    margin: 20px;
+    left: 50%;
+    margin-left: -2.5px;
+    }
+
+#circle2 {
+    position: relative;
+    width: 5px;
+    height: 5px;
+    -webkit-border-radius: 2.5px;
+    -moz-border-radius: 2.5px;
+    border-radius: 2.5px;
+    background: white;
+    margin: 20px;
+    left: 50%;
+    margin-left: -1.25px;
+    }
+
+#circle3 {
+    position: relative;
+    width: 2.5px;
+    height: 2.5px;
+    -webkit-border-radius: 1.25px;
+    -moz-border-radius: 1.25px;
+    border-radius: 1.25px;
+    background: white;
+    margin: 20px;
+    left: 50%;
+    margin-left: -0.325px;
+    }
 
 #d_profiles{
     width: 100%;
@@ -158,12 +224,14 @@ html * {
     font-family: 'Roboto Light', serif;
     color: white;
     font-size: 30px;
+    line-height: 40px;
 }
 
 #d_artistsProfile p{
     font-family: 'Roboto Light', serif;
     color: rgba(255,255,255,0.7);
     font-size: 18px;
+    letter-spacing: 2px;
 }
 
 #d_Aphone1{
@@ -409,7 +477,7 @@ html * {
     right: 3em;
     z-index: 1;
     top:20px;
-    
+    margin-right: 0px;
 }
 
 #m_home{
