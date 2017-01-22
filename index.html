@@ -32,7 +32,7 @@
                         <img src="images/logo-gradient-right@3x.png" height="50px">
                         <h3>JamCulture</h3></div>
                         <div class="col-md-2 col-md-offset-6 col-lg-offset-6 col-lg-2">
-                        <a class="btn btn-default" href="#" role="button">Coming Soon</a> </div>
+                        <a class="btn btn-default hidden-lg hidden-md" href="#" role="button">Coming Soon</a> </div>
                     </div>    
                 </div>                
             </div>          
@@ -88,7 +88,7 @@
                             <div id="d_artistsLine" class="vertical_line"></div>    
                         </div>
                         <div class="col-md-4 col-lg-4 right">
-                            <h4><b>Artists</b> out there,<br>Jamculture gets<br> it all covered.</h4>
+                            <h4><b>Artists</b> out there,<br>JamCulture gets<br> it all covered.</h4>
                             <p><br>This is a place to discover and get<br> discovered by artists around you.<br> Start your band, exhibit yourself.</p> 
                         </div>    
                     </div> 
@@ -248,7 +248,7 @@
             <div class= "col-sm-12 col-xs-12">
                 <header>
                 <h1>JamCulture</h1>
-                  <a id=m_download class="btn btn-default" href="#" role="button"><span class="glyphicon glyphicon-download visible-lg"></span> DOWNLOAD</a>      
+                  <a id=m_download class="btn btn-default hidden-sm hidden-xs" href="#" role="button"><span class="glyphicon glyphicon-download visible-lg"></span> DOWNLOAD</a>      
                 </header>
             </div>        
         </div>    
@@ -268,7 +268,7 @@
         <div class="row">
             <div class="col-sm-12 col-xs-12">
                 <h4><b>One App</b> that offers<br> everything you were looking for.</h4>
-                <p>Jamculture strives to bring like minded and skilled musicians together. Providing a platform, and services based on your requirement .We also endeavour to help you make your presence felt!</p>
+                <p>JamCulture strives to be a part of musicians career right from creating a band to begining of a music career. We provide a platform and services based on your requirement. Start your journey with us and make your presence felt.</p>
             </div>
         </div>
          <div>
@@ -287,7 +287,7 @@
             </div>
             <div class="row">
                 <div class="col-sm-12 col-xs-12 m_genericTextBox">
-                    <h4><b>Artists</b> out there,<br> Jamculture gets it all covered.</h4>
+                    <h4><b>Artists</b> out there,<br> JamCulture gets it all covered.</h4>
                     <p>This is a place to discover and get discovered by artists around you. Start your band, exhibit yourself</p>
                 </div>
             </div>
@@ -328,17 +328,40 @@
                 <div class="col-sm-12 col-xs-12 m_genericTextBox">
                     <h4><b>Gigs, </b> explore them right from the app & find one that suits you.</h4>
                     <p id="m_gigsP">Cutting out all the intermediates, we let you directly contact the spaces /people who are looking for you. How does that sound?
-                    Start your journey with us & let's break it all.</p>
+                    Start your journey with us.</p>
                 </div>
             </div>
         </div>
         </div>  
+        
+       
+    <div id="m_gigSection" class="visible-sm visible-xs">
+        
+        <div class="container fluid">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12">
+                        <img id="m_gPhone1" src="images/Phones-Gigs.png" height="380px">
+                    </div>
+                    <div class="col-xs-12 col-sm-12">
+                        <h4>You can also<b> Post an Event</b> and we will let the artists know that you are looking for them.</h4>
+                        <p>Create an Event card with all the details of the Event to find Bands/ Artists according to your requirements. You can now look up for your favourite artists/bands and contact them directly through JamCulture.</p> 
+                    </div>
+                </div>
+         
+             
+            </div>    
+        </div>
+        </div>
+    </div>
+    
     </div> 
     <footer class="visible-sm visible-xs"> 
         <div id="m_jCfooter" >
             <div id="m_jCfooterTop" class="container-fluid">
                 <h4>Start your Journey..</h4>
-                <p>Its big time you give us a try<br> You can find us on</p>
+                <p>Its big time you give us a try<br>Coming soon on</p>
                 <div ><a href="#"><img  id="m_jCplayStore" src="images/playstore.png" ></a></div>
             </div>
             
@@ -411,6 +434,20 @@
         minFont: 16,
         maxFont: 28,
         fontRatio:20}
+        ); 
+        $("#m_gigSection h4").flowtype({
+        minimum: 320,
+        maximum: 620,
+        minFont: 20,
+        maxFont: 30,
+        fontRatio:20}
+        ); 
+        $("#m_gigSection p").flowtype({
+        minimum: 320,
+        maximum: 620,
+        minFont: 16,
+        maxFont: 28,
+        fontRatio:30}
         ); 
         $("#m_jCfooterTop h4").flowtype({
         minimum: 320,
