@@ -828,6 +828,10 @@ html * {
     width: 100%;
     bottom: 0;
     color: white;
+    transition: height 1000000s ease;
+    -webkit-transition: height 1000000s ease;
+    -moz-transition: height 1000000s ease;
+    -o-transition: height 1000000s ease;
 }
 
 #m_jCfooterBottom .row ul{
