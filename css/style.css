@@ -715,6 +715,8 @@ html * {
     position: relative;
     height: 120vh;
     background: url("../images/lastWave.png") no-repeat;
+    background-size: cover;
+    background-position:-50px;
     background-color: rgba(219, 134, 35, 0.95 );
     transition: height 1000000s ease;
     -webkit-transition: height 1000000s ease;
