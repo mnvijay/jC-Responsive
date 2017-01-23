@@ -817,6 +817,7 @@ html * {
     position: absolute;
     background-color: #422b25;
     height: 45vh;
+    min-height: 300px;
     width: 100%;
     bottom: 0;
     color: white;
