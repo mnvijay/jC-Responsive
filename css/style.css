@@ -707,8 +707,7 @@ html * {
 }
 
 #m_artistsProfile .m_genericTextBox #m_gigsP{
-    margin-top: -10px;
-    padding: 5px;
+    padding: 10px;
 }
 
 #m_gigSection{
@@ -729,6 +728,10 @@ html * {
     left: 50%;
     margin-left: -150px;
     margin-top: 15vh;
+    transition: height 1000000s ease;
+    -webkit-transition: height 1000000s ease;
+    -moz-transition: height 1000000s ease;
+    -o-transition: height 1000000s ease;
 }
 
 #m_gigSection h4{
@@ -746,6 +749,7 @@ html * {
     font-weight:300;
     text-align: center;
     letter-spacing:0px;
+    padding: 10px;
 
 }
 
