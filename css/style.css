@@ -779,7 +779,7 @@ html * {
 #m_jCfooter{
     position: relative;
     width: 100%;
-    height: 110vh;
+    height: 105vh;
     background-color: rgba(219, 134, 35, 0.95 );
     transition: height 1000000s ease;
     -webkit-transition: height 1000000s ease;
@@ -824,7 +824,7 @@ html * {
 #m_jCfooterBottom{
     position: absolute;
     background-color: #422b25;
-    height: 50vh;
+    height: 45vh;
     width: 100%;
     bottom: 0;
     color: white;
