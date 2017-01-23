@@ -562,7 +562,7 @@ html * {
 #m_info{
     position: relative;
     width: 100%;
-    height: 100vh;
+    min-height: 600px;
     background-color: rgba(219, 134, 35, 0.95 );
     transition: height 1000000s ease;
     -webkit-transition: height 1000000s ease;
@@ -611,7 +611,7 @@ html * {
 #m_profiles{
     position: relative;
     width: 100%;
-    height: 520vh;
+    min-height: 3000px;
     background-color: rgba(219, 134, 35, 0.95 );
     transition: height 1000000s ease;
     -webkit-transition: height 1000000s ease;
@@ -622,7 +622,7 @@ html * {
 #m_artistsProfile{
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 600px;
     transition: height 1000000s ease;
     -webkit-transition: height 1000000s ease;
     -moz-transition: height 1000000s ease;
@@ -630,18 +630,30 @@ html * {
 }
 
 #m_artistsProfile .row .m_genericPhoneBox{
-    height: 70vh;
+    min-height: 380px;
+    transition: height 1000000s ease;
+    -webkit-transition: height 1000000s ease;
+    -moz-transition: height 1000000s ease;
+    -o-transition: height 1000000s ease;
+    
+}
+
+#m_a1{
+    position: relative;
+    left: 50%;
+    margin-left: -150px;
+    bottom:-20px;
     transition: height 1000000s ease;
     -webkit-transition: height 1000000s ease;
     -moz-transition: height 1000000s ease;
     -o-transition: height 1000000s ease;
 }
 
-#m_a1{
-    position: absolute;
+#m_b1{
+    position: relative;
     left: 50%;
-    margin-left: -170px;
-    bottom:-30px;
+    margin-left: -130px;
+    bottom:-20px;
     transition: height 1000000s ease;
     -webkit-transition: height 1000000s ease;
     -moz-transition: height 1000000s ease;
@@ -649,25 +661,19 @@ html * {
 }
 
 #m_A1{
-    position: absolute;
+    position: relative;
     left: 50%;
-    margin-left: -90px;
-    bottom:-30px;
+    margin-left: -100px;
+    bottom:-20px;
     transition: height 1000000s ease;
     -webkit-transition: height 1000000s ease;
     -moz-transition: height 1000000s ease;
     -o-transition: height 1000000s ease;
-}
-
-#m_A2{
-    position: absolute;
-    left: 50%;
-    margin-left: -140px;
-    bottom: -10px;
+    
 }
 
 #m_artistsProfile .row .m_genericTextBox{
-    height: 30vh;
+    min-height: 220px;
     transition: height 1000000s ease;
     -webkit-transition: height 1000000s ease;
     -moz-transition: height 1000000s ease;
@@ -692,20 +698,6 @@ html * {
     padding: 10px;
 }
 
-#m_artistsProfile .m_jCbands{
-
-    margin-left: -70px;
-}
-
-#m_artistsProfile .m_playRoom{
-    margin-left:-80px ;
-}
-
-#m_artistsProfile .m_gigs{
-    margin-left: -70px;
-    margin-top: -40px;
-}
-
 #m_artistsProfile .m_genericTextBox #m_gigsP{
     padding: 10px;
 }
@@ -723,8 +715,8 @@ html * {
 #m_g1{
     position: absolute;
     left: 50%;
-    margin-left: -150px;
-    bottom:-30px;
+    margin-left: -140px;
+    bottom:-20px;
     transition: height 1000000s ease;
     -webkit-transition: height 1000000s ease;
     -moz-transition: height 1000000s ease;
@@ -794,14 +786,14 @@ html * {
 }
 
 #m_jCfooterTop h4{
-    position: relative;
+    position: relat¡1xive;
     text-align: center;
     color: white;
     font-family: 'Roboto Light', serif;
     font-size:20px ;
     font-weight: 300;
     margin-top: 100px;
-}
+ß}
 
 #m_jCfooterTop p{
     position: relative;
@@ -842,6 +834,7 @@ html * {
 
 #m_jCfooterBottom .row li{
      line-height: 20px;  
+     padding: 5px;
 }
 
 #m_jCfooterBottom .row li a{
