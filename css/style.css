@@ -928,12 +928,10 @@ html * {
 .blur{
     margin-top: 25px;
     font-family: 'Roboto Light', serif;
-    color: rgba(255,255,255, 0.3);
 }
 
 .blur1{
     font-family: 'Roboto Light', serif;
-    color: rgba(255,255,255, 0.3);
 }
 
 #copyrights{
