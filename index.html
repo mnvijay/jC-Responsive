@@ -185,7 +185,7 @@
         </div>
         </div>
     </div>
-    <div id="d_lastSection" class="contaiener-fluid visible-md visible-lg">
+    <div id="d_lastSection" class="container-fluid visible-md visible-lg">
         <div class="row">
             <div class="col-md-12 col-lg-12">
                 <div class="row">
@@ -350,10 +350,37 @@
     <footer class=".foot visible-sm visible-xs"> 
         <div id="m_jCfooter" >
             <div id="m_jCfooterTop" class="container-fluid">
-                <h4><b>Coming Soon</b></h4>
-                <p>Start your journey with us once we are available on</p>
-                <div ><a href="#"><img  id="m_jCplayStore" src="images/playstore.png" ></a></div>
-            </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12">
+                         <h4><b>Coming Soon on</b></h4>
+                    </div>
+                </div>    
+                
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12">
+                        <a href="#"><img  id="m_jCplayStore" src="images/playstore.png" ></a>
+                    </div>
+                </div>    
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12">
+                         <h4>Stay connected with us</h4>
+                    </div>
+                        
+                </div>                         
+                <div class="row">
+                    <div class="col-sm-12 col-xs-12">               
+                        <div class="m_input-box">
+						   <input  id="email_1" name="newsEmail" class="m_input-type-box" type="text" placeholder="Enter Your E-mail Address"> 
+                           <!-- <a href="#"><div class="subscribe">Subscribe</div></a> -->
+						   <button onclick="myAjax($('#email_1').val())" class="m_subscribe">Submit</button> 
+<div class="m_subscribe-response"><span name="spanReturnMsg"></span></div>
+					    </div>
+                    
+                    </div>
+                </div>
+           
+        </div>
+
             
         <div id="m_jCfooterBottom" class="container-fluid">
             <div class="row">
@@ -372,11 +399,17 @@
                         <li><a><img src="images/twitter.png"></a></li>
                         <li><a> <img src="images/instagram.png"></a></li>
                     </ul>
-                    <p>Contact Us</p>
-                    <p>+919629219912</p>
-                    <p>reachus@thejamculture.com</p>
                 </div>
-            </div>    
+            </div>
+            <div id="m_contactUs" class="row">
+                <div class="col-sm-12 col-xs-12">
+                    <p><b>Contact Us</b></p>
+                    <p class="blur">+919629219912</p>
+                    <p class="blur1">reachus@thejamculture.com</p>
+                    
+                </div>
+            </div>
+                
             <div id="copyrights" class="row">
                 <div class="col-sm-12 col-xs-12">
                     <p>JamCulture 2016 All Rights Reserved</p>
@@ -423,7 +456,7 @@
         maximum: 620,
         minFont: 16,
         maxFont: 28,
-        fontRatio:20}
+        fontRatio:30}
         ); 
         $("#m_gigsProfile h4").flowtype({
         minimum: 320,
@@ -465,14 +498,14 @@
         maximum: 620,
         minFont: 14,
         maxFont:20,
-        fontRatio:30}
+        fontRatio:40}
         );   
         $("#copyrights p").flowtype({
         minimum: 320,
         maximum: 620,
         minFont: 12,
         maxFont:20,
-        fontRatio:30}
+        fontRatio:40}
         );   
     </script>
 </body>
